@@ -11,5 +11,6 @@ function printFriends(friends: IFriend[]) {
 printFriends([
     {firstName: "Luca"},
     {firstName: "Daniel"},
-    {firstName: "Steffen"}
+    {firstName: "Steffen"},
+    {firstName: "Test"}
 ]);
