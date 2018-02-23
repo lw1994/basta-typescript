@@ -1,6 +1,6 @@
+"use strict";
 function printFriends(friends) {
-    for (var _i = 0, friends_1 = friends; _i < friends_1.length; _i++) {
-        var friend = friends_1[_i];
+    for (let friend of friends) {
         console.log(friend.firstName);
     }
 }
@@ -10,3 +10,4 @@ printFriends([
     { firstName: "Steffen" },
     { firstName: "Test" }
 ]);
+//# sourceMappingURL=main.js.map
